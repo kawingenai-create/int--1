@@ -215,16 +215,14 @@ const About = () => {
                 }, []);
 
                 return (
-                  <div ref={ref} className={`text-center p-3 sm:p-6 rounded-2xl backdrop-blur-xl border transition-all duration-300 ${
-                    isDark
+                  <div ref={ref} className={`text-center p-3 sm:p-6 rounded-2xl backdrop-blur-xl border transition-all duration-300 ${isDark
                       ? 'bg-white/5 border-white/10 shadow-[0_8px_32px_0_rgba(0,0,0,0.3)]'
                       : 'bg-white/40 border-white/50 shadow-[0_8px_32px_0_rgba(31,38,135,0.15)]'
-                  }`}>
-                    <div className={`text-2xl sm:text-3xl md:text-4xl font-bold ${
-                      isDark
+                    }`}>
+                    <div className={`text-2xl sm:text-3xl md:text-4xl font-bold ${isDark
                         ? `text-${stat.color}-400`
                         : ({ emerald: 'text-emerald-700', purple: 'text-purple-700', cyan: 'text-teal-700' }[stat.color] ?? 'text-gray-700')
-                    }`}>
+                      }`}>
                       {count}{stat.suffix}
                     </div>
                     <div className={`text-xs sm:text-sm md:text-base font-medium mt-1 ${isDark ? 'text-gray-300' : 'text-gray-700'}`}>
@@ -250,7 +248,7 @@ const About = () => {
           </h2>
 
           {/* Modern Alternating Team Cards */}
-          <div className="flex flex-col gap-32 sm:gap-24">
+          <div className="flex flex-col gap-24 sm:gap-24">
             {teamMembers.map((member, index) => {
               const isEven = index % 2 !== 0;
               return (
@@ -259,10 +257,10 @@ const About = () => {
                   initial={{ opacity: 0, x: isEven ? 50 : -50 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.7, delay: index * 0.1 }}
-                  className={`relative ${index === 0 ? 'mt-20 sm:mt-0' : ''} pt-20 sm:pt-0 mx-3 sm:mx-0 ${isEven ? 'sm:pr-24 md:pr-32' : 'sm:pl-24 md:pl-32'}`}
+                  className={`relative ${index === 0 ? 'mt-16 sm:mt-0' : ''} pt-24 sm:pt-0 mx-4 sm:mx-0 ${isEven ? 'sm:pr-24 md:pr-32' : 'sm:pl-24 md:pl-32'}`}
                 >
                   {/* Larger Offset Profile Circle */}
-                  <div className={`absolute ${isEven ? 'right-1/2 translate-x-1/2 sm:translate-x-0 sm:right-[-40px] md:right-[-60px]' : 'left-1/2 -translate-x-1/2 sm:translate-x-0 sm:left-[-40px] md:left-[-60px]'} top-10 sm:top-1/2 -translate-y-1/2 z-20 w-40 h-40 sm:w-48 sm:h-48 md:w-64 md:h-64 rounded-full flex items-center justify-center text-4xl sm:text-6xl md:text-8xl font-bold text-white shadow-[0_0_30px_rgba(99,102,241,0.3)] dark:shadow-[0_0_40px_rgba(255,255,255,0.05)] overflow-hidden border-4 sm:border-8 ${isDark ? 'bg-[#0f172a] border-white/10' : 'bg-white border-white shadow-xl'}`}>
+                  <div className={`absolute ${isEven ? 'right-1/2 translate-x-1/2 sm:translate-x-0 sm:right-[-40px] md:right-[-60px]' : 'left-1/2 -translate-x-1/2 sm:translate-x-0 sm:left-[-40px] md:left-[-60px]'} top-24 sm:top-1/2 -translate-y-1/2 z-20 w-48 h-48 sm:w-48 sm:h-48 md:w-64 md:h-64 rounded-full flex items-center justify-center text-4xl sm:text-6xl md:text-8xl font-bold text-white shadow-[0_0_40px_rgba(99,102,241,0.4)] dark:shadow-[0_0_50px_rgba(255,255,255,0.1)] overflow-hidden border-4 sm:border-8 ${isDark ? 'bg-[#0f172a] border-white/20' : 'bg-white border-white shadow-2xl'}`}>
                     {member.image ? (
                       <div className="w-full h-full p-1.5 sm:p-2">
                         <img src={member.image} alt={member.name} className="w-full h-full object-contain rounded-full" />
@@ -272,9 +270,9 @@ const About = () => {
                     )}
                   </div>
 
-                  <InteractiveCard glowColor="indigo" className={`!p-0 overflow-visible ${isDark ? 'bg-gray-800/40 backdrop-blur-md border-white/5' : 'bg-white/60 backdrop-blur-md border-gray-100 shadow-xl'}`}>
-                    <div className={`flex flex-col lg:flex-row items-center gap-4 sm:gap-8 p-4 sm:p-10 md:p-12 pt-24 sm:pt-10 ${isEven ? 'sm:pr-32 lg:pr-40' : 'sm:pl-32 lg:pl-40'}`}>
-                      
+                  <InteractiveCard glowColor="indigo" className={`!p-0 overflow-visible rounded-3xl ${isDark ? 'bg-gray-800/40 backdrop-blur-md border-white/5' : 'bg-white/70 backdrop-blur-md border-gray-100 shadow-2xl'}`}>
+                    <div className={`flex flex-col lg:flex-row items-center gap-4 sm:gap-8 p-5 sm:p-10 md:p-12 pt-32 sm:pt-10 ${isEven ? 'sm:pr-32 lg:pr-40' : 'sm:pl-32 lg:pl-40'}`}>
+
                       {/* Name & Quotes Column (Middle) */}
                       <div className={`flex-1 text-center sm:text-left w-full ${isEven ? 'lg:order-2' : 'lg:order-1'}`}>
                         {/* Name */}
@@ -380,11 +378,10 @@ const About = () => {
               >
                 <InteractiveCard glowColor={value.color as 'emerald' | 'purple' | 'pink' | 'blue'} className="h-full">
                   <div className="flex flex-col items-center text-center">
-                    <div className={`mb-2 sm:mb-4 ${
-                      isDark
+                    <div className={`mb-2 sm:mb-4 ${isDark
                         ? `text-${value.color}-400`
                         : ({ emerald: 'text-emerald-700', pink: 'text-violet-700', purple: 'text-purple-700', blue: 'text-blue-700' }[value.color] ?? 'text-gray-700')
-                    }`}>
+                      }`}>
                       {React.cloneElement(value.icon, { className: 'h-6 w-6 sm:h-8 sm:w-8 md:h-10 md:w-10' })}
                     </div>
                     <h3 className={`text-sm sm:text-base md:text-lg font-bold mb-1 sm:mb-2 ${isDark ? 'text-white' : 'text-gray-800'}`}>

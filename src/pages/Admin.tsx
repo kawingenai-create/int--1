@@ -321,7 +321,7 @@ const Admin: React.FC = () => {
                     pageViews,
                     browserStats,
                     weeklyVisits: monthlyVisits,
-                    hourlyVisits,
+                    hourlyVisits: hourlyVisits || [],
                     avgTimeSpent,
                     timeOfDay: { morning: 0, afternoon: 0, evening: 0, night: 0 },
                 });
@@ -746,7 +746,7 @@ const Admin: React.FC = () => {
                             )}
                         </button>
                         <button
-                            onClick={handleLogout}
+                            onClick={loadData}
                             className={`flex items-center gap-1.5 sm:gap-2 px-2.5 py-1.5 sm:px-4 sm:py-2 rounded-lg text-xs sm:text-sm font-medium transition-all ${isDark
                                 ? 'bg-gray-800 hover:bg-gray-700 text-gray-200'
                                 : 'bg-gray-200 hover:bg-gray-300 text-gray-800'
@@ -1612,7 +1612,7 @@ const Admin: React.FC = () => {
                                                     </div>
                                                     <div className="flex items-center gap-2">
                                                         <div className={`text-[10px] font-medium uppercase tracking-tighter ${isDark ? 'text-gray-600' : 'text-gray-400'}`}>
-                                                            ID: {lead.session_id.slice(0, 8)}...
+                                                            ID: {lead.session_id?.slice(0, 8)}...
                                                         </div>
                                                         <button
                                                             onClick={() => handleDeleteChatbotLead(lead.id)}
