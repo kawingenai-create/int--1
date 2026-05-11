@@ -112,8 +112,8 @@ const About = () => {
   return (
     <div className="relative min-h-screen pt-20">
       <SEO 
-        title="About Us | Integer.IO Systems - AI & Web Development Experts"
-        description="Learn about Integer.IO Systems, our mission, values, and the expert team dedicated to providing top-tier AI automation, SaaS products, ERP and web development."
+        title="About Us | Integer.IO Tech - AI & Web Development Experts"
+        description="Learn about Integer.IO Tech, our mission, values, and the expert team dedicated to providing top-tier AI automation, SaaS products, ERP and web development."
         page="about"
       />
 
@@ -159,7 +159,7 @@ const About = () => {
                 >
                   <img
                     src={logo}
-                    alt="Integer.IO Systems Logo"
+                    alt="Integer.IO Tech Logo"
                     className="w-full h-full object-cover rounded-full"
                   />
                 </div>
@@ -171,7 +171,7 @@ const About = () => {
                     Empowering Digital Transformation
                   </h3>
                   <p className={`text-xs sm:text-base lg:text-lg leading-relaxed mb-3 sm:mb-4 ${isDark ? 'text-gray-200' : 'text-gray-700'}`}>
-                    Integer.IO Systems is a leading digital solutions provider based in Madurai, founded with a clear vision to
+                    Integer.IO Tech is a leading digital solutions provider based in Madurai, founded with a clear vision to
                     <span className={`font-semibold ${isDark ? 'text-emerald-400' : 'text-emerald-700'}`}> democratize technology</span> for
                     businesses of all sizes. We specialize in high-performance web development, custom AI Automation solutions, enterprise-grade ERP systems including Billing software, CRM, and digital marketing strategies tailored for growth. Our expertise lies in building secure, scalable, and user-centric digital products that solve real-world problems.
                   </p>

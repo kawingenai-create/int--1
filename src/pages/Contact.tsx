@@ -167,8 +167,8 @@ const Contact = () => {
   return (
     <div className="relative min-h-screen pt-20">
       <SEO 
-        title="Contact Us | Integer.IO Systems - Madurai, Coimbatore & Chennai"
-        description="Get in touch with Integer.IO Systems for cost efficient web development, SaaS products, and final year projects overall TamilNadu. Based in Madurai, serving clients globally."
+        title="Contact Us | Integer.IO Tech - Madurai, Coimbatore & Chennai"
+        description="Get in touch with Integer.IO Tech for cost efficient web development, SaaS products, and final year projects overall TamilNadu. Based in Madurai, serving clients globally."
         page="contact"
       />
       <div className="relative z-10 max-w-7xl mx-auto px-3 sm:px-4 py-6 sm:py-12">
@@ -182,7 +182,7 @@ const Contact = () => {
             Contact Us
           </h1>
           <p className={`text-sm sm:text-lg md:text-xl font-medium max-w-4xl mx-auto leading-relaxed ${isDark ? 'text-gray-200' : 'text-gray-800'}`}>
-            Ready to transform your innovative ideas into high-performance digital reality? Whether you have a specific project in mind, need technical consultation, or want to explore how AI automation can scale your business, our expert team at Integer.IO Systems is here to help you every step of the way. Get in touch with us today for a personalized consultation!
+            Ready to transform your innovative ideas into high-performance digital reality? Whether you have a specific project in mind, need technical consultation, or want to explore how AI automation can scale your business, our expert team at Integer.IO Tech is here to help you every step of the way. Get in touch with us today for a personalized consultation!
           </p>
         </motion.div>
 

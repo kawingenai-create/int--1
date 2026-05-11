@@ -206,7 +206,7 @@ const Services = () => {
     <div className="relative min-h-screen pt-20">
       <SEO
         title="Our Services in Madurai, Coimbatore & Chennai | SaaS Products & Web Development"
-        description="Integer.IO Systems offers cost efficient web development, custom SaaS products, AI automation, and final year projects overall TamilNadu."
+        description="Integer.IO Tech offers cost efficient web development, custom SaaS products, AI automation, and final year projects overall TamilNadu."
         page="services"
       />
 

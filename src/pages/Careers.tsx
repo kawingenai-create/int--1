@@ -13,8 +13,8 @@ const Careers: React.FC = () => {
   return (
     <div className="relative min-h-screen pt-24 pb-20 px-4 sm:px-6 lg:px-8">
       <SEO 
-        title="Careers | Join Integer.IO Systems - Madurai, Coimbatore & Chennai"
-        description="Join the team at Integer.IO Systems. We are looking for passionate individuals to help us build SaaS products and provide cost efficient web development."
+        title="Careers | Join Integer.IO Tech - Madurai, Coimbatore & Chennai"
+        description="Join the team at Integer.IO Tech. We are looking for passionate individuals to help us build SaaS products and provide cost efficient web development."
         page="careers"
       />
       <div className="max-w-4xl mx-auto">
@@ -36,7 +36,7 @@ const Careers: React.FC = () => {
             className={`text-sm sm:text-lg lg:text-xl max-w-2xl mx-auto ${isDark ? 'text-gray-300' : 'text-gray-600'
               }`}
           >
-            Build AI. Break Limits. Create Future. We are always looking for passionate individuals to join Integer.IO Systems.
+            Build AI. Break Limits. Create Future. We are always looking for passionate individuals to join Integer.IO Tech.
           </p>
         </motion.div>
 

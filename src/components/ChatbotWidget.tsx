@@ -206,7 +206,7 @@ const ChatbotWidget: React.FC = () => {
     // Always show the same welcome message
     setMessages([{
       id: '1',
-      text: "👋 **Hi!** I'm Integer Helper AI, your personal assistant at **Integer.IO Systems**. \n\nHow can I help you regarding our **Web Development**, **AI Automation**, or **Digital Branding** services today?",
+      text: "👋 **Hi!** I'm Integer Helper AI, your personal assistant at **Integer.IO Tech**. \n\nHow can I help you regarding our **Web Development**, **AI Automation**, or **Digital Branding** services today?",
       sender: 'bot',
       timestamp: new Date(),
       navButtons: [
@@ -760,7 +760,7 @@ const ChatbotWidget: React.FC = () => {
                     <h3 className="text-white font-bold text-sm leading-tight">Integer Helper AI</h3>
                     <div className="flex items-center gap-1.5">
                       <span className="w-1.5 h-1.5 bg-emerald-400 rounded-full animate-pulse" />
-                      <span className="text-white/70 text-[10px]">Integer.IO Systems</span>
+                      <span className="text-white/70 text-[10px]">Integer.IO Tech</span>
                     </div>
                   </div>
                 </div>

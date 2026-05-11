@@ -109,7 +109,7 @@ const LoadingScreen: React.FC<{ onComplete: () => void }> = ({
                     backgroundSize: '200% 200%',
                   }}
                 >
-                  Integer.IO Systems
+                  Integer.IO Tech
                 </motion.span>
               </motion.h1>
 
@@ -217,7 +217,7 @@ const LoadingScreen: React.FC<{ onComplete: () => void }> = ({
                 className={`text-xs font-light tracking-wider ${isDark ? 'text-slate-500' : 'text-slate-400'
                   }`}
               >
-                © 2025 Integer.IO Systems - Professional Technology Solutions
+                © 2025 Integer.IO Tech - Professional Technology Solutions
               </p>
             </motion.div>
           </div>

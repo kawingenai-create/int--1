@@ -101,8 +101,8 @@ const Home = () => {
   return (
     <div className="relative min-h-screen pt-16">
       <SEO
-        title="Integer.IO Systems | AI Automation & Web Development Company in Madurai, Coimbatore & Chennai"
-        description="Integer.IO Systems is a leading AI automation company and web development company in Madurai. We provide SaaS products, React development, business automation, digital transformation and final year projects across Tamil Nadu."
+        title="Integer.IO Tech | AI Automation & Web Development Company in Madurai, Coimbatore & Chennai"
+        description="Integer.IO Tech is a leading AI automation company and web development company in Madurai. We provide SaaS products, React development, business automation, digital transformation and final year projects across Tamil Nadu."
         page=""
       />
       {/* Hero Section with Enhanced Effects */}
@@ -129,12 +129,12 @@ const Home = () => {
 
             <h1 className="flex flex-col items-center justify-center gap-1 sm:gap-2 text-3xl sm:text-4xl md:text-7xl font-bold mb-4 sm:mb-8">
               <motion.span variants={slideR} className="flex items-center justify-center gap-2 sm:gap-4">
-                <img src={halfLogo} alt="Integer.IO Systems - Top Madurai IT Companies" className="h-16 sm:h-14 md:h-24 w-auto object-contain" />
+                <img src={halfLogo} alt="Integer.IO Tech - Top Madurai IT Companies" className="h-16 sm:h-14 md:h-24 w-auto object-contain" />
                 <span className={`bg-gradient-to-r bg-clip-text text-transparent pb-0 sm:pb-1 text-xl sm:text-3xl md:text-5xl drop-shadow-sm ${isDark
                   ? 'from-emerald-300 via-purple-300 to-pink-300'
                   : 'from-purple-900 via-indigo-800 to-emerald-800'
                   }`} style={{ lineHeight: '1.2' }}>
-                  Integer.IO Systems
+                  Integer.IO Tech
                 </span>
               </motion.span>
               <div className="h-3 sm:h-6"></div>
@@ -160,7 +160,7 @@ const Home = () => {
               className={`text-xs sm:text-lg mb-4 sm:mb-10 max-w-4xl mx-auto font-medium leading-relaxed px-4 ${isDark ? 'text-gray-300' : 'text-gray-800'
                 }`}
             >
-              We specialize in high-performance React development, AI automation solutions, and custom SaaS products. Based in Madurai and serving clients globally, Integer.IO Systems bridges the gap between vision and technology, delivering future-ready solutions that drive efficiency and growth for modern businesses.
+              We specialize in high-performance React development, AI automation solutions, and custom SaaS products. Based in Madurai and serving clients globally, Integer.IO Tech bridges the gap between vision and technology, delivering future-ready solutions that drive efficiency and growth for modern businesses.
             </motion.p>
           </motion.div>
 
@@ -237,7 +237,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Why Integer.IO Systems Section */}
+      {/* Why Integer.IO Tech Section */}
       <section className="py-8 sm:py-16 px-4 relative z-10 overflow-hidden">
         <div className="max-w-5xl mx-auto">
           <div className={`p-5 sm:p-8 md:p-10 rounded-[2rem] backdrop-blur-xl border shadow-2xl transition-all duration-500 ${isDark ? 'bg-white/5 border-white/10' : 'bg-white/60 border-emerald-500/10'}`}>
@@ -248,7 +248,7 @@ const Home = () => {
               variants={slideL}
               className={`text-2xl sm:text-3xl md:text-4xl font-extrabold text-center mb-10 sm:mb-14 ${isDark ? 'text-white' : 'text-gray-900'}`}
             >
-              Why Integer.IO Systems?
+              Why Integer.IO Tech?
             </motion.h2>
 
           <div className="flex flex-row gap-4 sm:gap-12 lg:gap-20 items-center">
@@ -294,7 +294,7 @@ const Home = () => {
                 <InteractiveCard glowColor="emerald" className="!p-0 overflow-hidden">
                   <img
                     src={whycardImg}
-                    alt="Why Integer.IO Systems - AI & Web Development"
+                    alt="Why Integer.IO Tech - AI & Web Development"
                     className="w-full h-auto object-contain"
                   />
                 </InteractiveCard>
@@ -341,7 +341,7 @@ const Home = () => {
                 <div className={`relative rounded-t-xl ${isDark ? 'bg-gray-800/40' : 'bg-gray-50/50'}`}>
                   <img
                     src={chatzImg}
-                    alt="Chatz.IO - SaaS Products by Integer.IO Systems for Students"
+                    alt="Chatz.IO - SaaS Products by Integer.IO Tech for Students"
                     loading="lazy"
                     className="w-full h-36 sm:h-48 md:h-64 object-contain p-2"
                   />
@@ -378,7 +378,7 @@ const Home = () => {
                 <div className={`relative rounded-t-xl ${isDark ? 'bg-gray-800/40' : 'bg-gray-50/50'}`}>
                   <img
                     src={imgGenImg}
-                    alt="Dips.IO - Next-Gen SaaS Products by Integer.IO Systems"
+                    alt="Dips.IO - Next-Gen SaaS Products by Integer.IO Tech"
                     loading="lazy"
                     className="w-full h-36 sm:h-48 md:h-64 object-contain p-2"
                   />
@@ -437,7 +437,7 @@ const Home = () => {
                   <div className="relative overflow-hidden rounded-lg mb-1 sm:mb-4">
                     <img
                       src={project.image}
-                      alt={`${project.title} - Cost efficient web development by Integer.IO Systems`}
+                      alt={`${project.title} - Cost efficient web development by Integer.IO Tech`}
                       loading="lazy"
                       className="w-full h-24 sm:h-44 md:h-48 object-cover transition-transform duration-300 group-hover:scale-110"
                     />

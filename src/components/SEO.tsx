@@ -13,12 +13,12 @@ interface SEOProps {
 // Page-specific SEO configurations
 const PAGE_SEO: Record<string, { keywords: string; schemaType: string; schemaName: string }> = {
   '': {
-    keywords: 'Integer.IO Systems, Integer IO, integerio.com, IT company Madurai, web development Madurai, AI automation Madurai, React development Tamil Nadu, SaaS products India, digital transformation Madurai, AI chatbot development, software company Madurai, Thirunagar IT company, best web developer Madurai, web development company Tamil Nadu, app development Madurai, full stack development India, startup software solutions, business automation Tamil Nadu',
+    keywords: 'Integer.IO Tech, Integer.IO Systems, Integer.IO Solutions, Integer IO, integerio.com, IT company Madurai, web development Madurai, AI automation Madurai, React development Tamil Nadu, SaaS products India, digital transformation Madurai, AI chatbot development, software company Madurai, Thirunagar IT company, best web developer Madurai, web development company Tamil Nadu, app development Madurai, full stack development India, startup software solutions, business automation Tamil Nadu',
     schemaType: 'WebPage',
     schemaName: 'Home',
   },
   about: {
-    keywords: 'Integer.IO Systems team, about Integer IO, IT company founders Madurai, Kawin MS Integer IO, software company team Tamil Nadu, digital solutions provider Madurai, web development experts, AI company about us, IT startup Madurai 2024',
+    keywords: 'Integer.IO Tech team, about Integer IO, IT company founders Madurai, Kawin MS Integer IO, software company team Tamil Nadu, digital solutions provider Madurai, web development experts, AI company about us, IT startup Madurai 2024',
     schemaType: 'AboutPage',
     schemaName: 'About Us',
   },
@@ -63,8 +63,8 @@ const BASE_URL = 'https://integerio.com';
 const OG_IMAGE = 'https://integerio.com/og-image.webp';
 
 const SEO: React.FC<SEOProps> = ({
-  title = "Integer.IO Systems | AI Automation & Web Development Company in Madurai, Coimbatore & Chennai",
-  description = "Integer.IO Systems is a leading AI automation company and web development company in Madurai. We provide SaaS products, React development, business automation, custom software, digital transformation and final year projects across Tamil Nadu.",
+  title = "Integer.IO Tech | AI Automation & Web Development Company in Madurai, Coimbatore & Chennai",
+  description = "Integer.IO Tech is a leading AI automation company and web development company in Madurai. We provide SaaS products, React development, business automation, custom software, digital transformation and final year projects across Tamil Nadu.",
   keywords,
   image = OG_IMAGE,
   url = BASE_URL,
@@ -81,7 +81,7 @@ const SEO: React.FC<SEOProps> = ({
       <meta name="title" content={title} />
       <meta name="description" content={description} />
       <meta name="keywords" content={finalKeywords} />
-      <meta name="author" content="Kawin M.S. - Integer.IO Systems" />
+      <meta name="author" content="Kawin M.S. - Integer.IO Tech" />
       <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
 
       {/* Geo Meta Tags */}
@@ -96,7 +96,7 @@ const SEO: React.FC<SEOProps> = ({
       <meta property="og:image" content={image} />
       <meta property="og:url" content={fullUrl} />
       <meta property="og:type" content="website" />
-      <meta property="og:site_name" content="Integer.IO Systems" />
+      <meta property="og:site_name" content="Integer.IO Tech" />
       <meta property="og:locale" content="en_US" />
 
       {/* Twitter */}
@@ -120,7 +120,7 @@ const SEO: React.FC<SEOProps> = ({
           "url": fullUrl,
           "isPartOf": {
             "@type": "WebSite",
-            "name": "Integer.IO Systems",
+            "name": "Integer.IO Tech",
             "url": BASE_URL
           },
           "breadcrumb": {
@@ -138,8 +138,8 @@ const SEO: React.FC<SEOProps> = ({
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Organization",
-          "name": "Integer.IO Systems",
-          "alternateName": ["Integer IO", "Integer.IO Systems", "IntegerIO"],
+          "name": "Integer.IO Tech",
+          "alternateName": ["Integer IO", "Integer.IO Tech", "IntegerIO"],
           "description": "Professional web development, AI automation, SaaS products, digital marketing, and student project services based in Madurai, Tamil Nadu, India.",
           "url": BASE_URL,
           "logo": OG_IMAGE,
@@ -244,7 +244,7 @@ const SEO: React.FC<SEOProps> = ({
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          "name": "Integer.IO Systems",
+          "name": "Integer.IO Tech",
           "image": OG_IMAGE,
           "description": "IT company in Madurai specializing in web development, AI automation, SaaS products, ERP That can include: Billing software, CRM, HR, Inventory, digital marketing, and student project services.",
           "@id": BASE_URL,

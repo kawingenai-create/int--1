@@ -125,8 +125,8 @@ const Projects = () => {
   return (
     <div className="relative min-h-screen pt-20">
       <SEO
-        title="Student Projects in Madurai, Coimbatore & Chennai | Final Year Projects by Integer.IO Systems"
-        description="Download and explore final year projects overall TamilNadu provided by Integer.IO Systems. We help students with AI, ML, Data Science, and cost efficient web development projects."
+        title="Student Projects in Madurai, Coimbatore & Chennai | Final Year Projects by Integer.IO Tech"
+        description="Download and explore final year projects overall TamilNadu provided by Integer.IO Tech. We help students with AI, ML, Data Science, and cost efficient web development projects."
         page="projects"
       />
       <div className="relative z-10 max-w-7xl mx-auto px-3 sm:px-4 py-6 sm:py-12">

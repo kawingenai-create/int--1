@@ -376,7 +376,7 @@ const Footer: React.FC = () => {
             <p
               className={`text-xs sm:text-sm font-medium ${isDark ? 'text-gray-400' : 'text-gray-500'}`}
             >
-              © 2026 Integer.IO Systems. All rights reserved.
+              © 2026 Integer.IO Tech. All rights reserved.
             </p>
             <p
               className={`text-[10px] sm:text-xs mt-1 flex flex-wrap justify-center items-center ${isDark ? 'text-gray-500' : 'text-gray-400'}`}
@@ -387,7 +387,7 @@ const Footer: React.FC = () => {
                 to="/"
                 className={`ml-1 hover:text-emerald-400 transition-colors font-bold ${isDark ? 'text-gray-400' : 'text-gray-500'}`}
               >
-                Integer.IO Systems
+                Integer.IO Tech
               </Link>
             </p>
           </div>

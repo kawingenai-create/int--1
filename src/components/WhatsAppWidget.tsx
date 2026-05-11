@@ -73,7 +73,7 @@ const WhatsAppWidget: React.FC = () => {
                   <MessageCircle className="h-6 w-6" />
                 </div>
                 <div>
-                  <h3 className="font-semibold">Integer.IO Systems</h3>
+                  <h3 className="font-semibold">Integer.IO Tech</h3>
                   <p className="text-sm opacity-90">Typically replies instantly</p>
                 </div>
               </div>
