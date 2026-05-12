@@ -1188,10 +1188,10 @@ const Admin: React.FC = () => {
                                     </div>
                                 </InteractiveCard>
 
-                                <InteractiveCard glowColor="pink" className="!p-3 sm:!p-6">
+                                <InteractiveCard glowColor="blue" className="!p-3 sm:!p-6">
                                     <div className="flex items-center gap-2 sm:gap-4">
-                                        <div className={`p-2 sm:p-3 rounded-xl ${isDark ? 'bg-pink-500/20' : 'bg-pink-100'}`}>
-                                            <Clock className={`h-4 w-4 sm:h-6 sm:w-6 ${isDark ? 'text-pink-400' : 'text-pink-600'}`} />
+                                        <div className={`p-2 sm:p-3 rounded-xl ${isDark ? 'bg-blue-500/20' : 'bg-blue-100'}`}>
+                                            <Clock className={`h-4 w-4 sm:h-6 sm:w-6 ${isDark ? 'text-blue-400' : 'text-blue-600'}`} />
                                         </div>
                                         <div>
                                             <p className={`text-[10px] sm:text-sm font-medium ${isDark ? 'text-gray-400' : 'text-gray-500'}`}>Avg Time</p>
@@ -1570,8 +1570,8 @@ const Admin: React.FC = () => {
                         >
                             {/* Analytics Summary Cards */}
                             <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4">
-                                <InteractiveCard glowColor="cyan" className="!p-3 sm:!p-4 text-center">
-                                    <Bot className={`h-6 w-6 sm:h-8 sm:w-8 mx-auto mb-1 ${isDark ? 'text-cyan-400' : 'text-cyan-600'}`} />
+                                <InteractiveCard glowColor="blue" className="!p-3 sm:!p-4 text-center">
+                                    <Bot className={`h-6 w-6 sm:h-8 sm:w-8 mx-auto mb-1 ${isDark ? 'text-blue-400' : 'text-blue-600'}`} />
                                     <p className={`text-lg sm:text-2xl font-bold ${isDark ? 'text-white' : 'text-gray-800'}`}>
                                         {chatbotLeads.length}
                                     </p>
@@ -1596,8 +1596,8 @@ const Admin: React.FC = () => {
                                     </p>
                                     <p className={`text-[10px] sm:text-xs ${isDark ? 'text-gray-400' : 'text-gray-500'}`}>Today's Chats</p>
                                 </InteractiveCard>
-                                <InteractiveCard glowColor="pink" className="!p-3 sm:!p-4 text-center">
-                                    <Users className={`h-6 w-6 sm:h-8 sm:w-8 mx-auto mb-1 ${isDark ? 'text-pink-400' : 'text-pink-600'}`} />
+                                <InteractiveCard glowColor="blue" className="!p-3 sm:!p-4 text-center">
+                                    <Users className={`h-6 w-6 sm:h-8 sm:w-8 mx-auto mb-1 ${isDark ? 'text-blue-400' : 'text-blue-600'}`} />
                                     <p className={`text-lg sm:text-2xl font-bold ${isDark ? 'text-white' : 'text-gray-800'}`}>
                                         {chatbotLeads.filter((l: ChatbotLead) => l.name && l.email).length}
                                     </p>
@@ -1630,7 +1630,7 @@ const Admin: React.FC = () => {
                                                         <h4 className={`font-bold truncate ${isDark ? 'text-white' : 'text-gray-800'}`}>
                                                             {lead.name || 'Anonymous User'}
                                                         </h4>
-                                                        <p className={`text-xs truncate ${isDark ? 'text-cyan-400' : 'text-cyan-600'}`}>
+                                                        <p className={`text-xs truncate ${isDark ? 'text-blue-400' : 'text-blue-600'}`}>
                                                             {lead.email || 'No email provided'}
                                                         </p>
                                                     </div>
@@ -1690,7 +1690,7 @@ const Admin: React.FC = () => {
                                                             </span>
                                                         </td>
                                                         <td className="px-3 sm:px-4 py-2.5">
-                                                            <span className={`text-xs sm:text-sm ${isDark ? 'text-cyan-400' : 'text-cyan-600'}`}>
+                                                            <span className={`text-xs sm:text-sm ${isDark ? 'text-blue-400' : 'text-blue-600'}`}>
                                                                 {lead.email || '—'}
                                                             </span>
                                                         </td>

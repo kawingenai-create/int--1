@@ -131,8 +131,8 @@ const Home = () => {
               <motion.span variants={slideR} className="flex items-center justify-center gap-2 sm:gap-4">
                 <img src={halfLogo} alt="Integer.IO Tech - Top Madurai IT Companies" className="h-16 sm:h-14 md:h-24 w-auto object-contain" />
                 <span className={`bg-gradient-to-r bg-clip-text text-transparent pb-0 sm:pb-1 text-xl sm:text-3xl md:text-5xl drop-shadow-sm ${isDark
-                  ? 'from-emerald-300 via-purple-300 to-pink-300'
-                  : 'from-purple-900 via-indigo-800 to-emerald-800'
+                  ? 'from-emerald-300 via-violet-300 to-blue-300'
+                  : 'from-violet-900 via-blue-800 to-emerald-800'
                   }`} style={{ lineHeight: '1.2' }}>
                   Integer.IO Tech
                 </span>

@@ -32,14 +32,14 @@ const WhatsAppWidget: React.FC = () => {
       >
         <motion.button
           onClick={() => setIsOpen(!isOpen)}
-          className="bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition-all duration-300"
+          className="bg-gradient-to-r from-emerald-600 to-blue-600 hover:from-emerald-700 hover:to-blue-700 text-white p-4 rounded-full shadow-lg transition-all duration-300"
           whileHover={{ scale: 1.08 }}
           whileTap={{ scale: 0.9 }}
           animate={{
             boxShadow: [
-              "0 0 0 0 rgba(34, 197, 94, 0.7)",
-              "0 0 0 15px rgba(34, 197, 94, 0)",
-              "0 0 0 30px rgba(34, 197, 94, 0)"
+              "0 0 0 0 rgba(5, 150, 105, 0.7)",
+              "0 0 0 15px rgba(29, 78, 216, 0)",
+              "0 0 0 30px rgba(29, 78, 216, 0)"
             ],
             scale: [1, 1.05, 1]
           }}
@@ -67,7 +67,7 @@ const WhatsAppWidget: React.FC = () => {
               }`}
           >
             {/* Header */}
-            <div className="bg-green-500 text-white p-4 rounded-t-lg">
+            <div className="bg-gradient-to-r from-emerald-600 to-blue-600 text-white p-4 rounded-t-lg">
               <div className="flex items-center space-x-3">
                 <div className="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center">
                   <MessageCircle className="h-6 w-6" />
@@ -109,7 +109,7 @@ const WhatsAppWidget: React.FC = () => {
               <div className="flex space-x-2">
                 <button
                   onClick={() => sendMessage("Hi! I'd like to know more about your services.")}
-                  className="flex-1 bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded-lg text-sm font-medium transition-colors"
+                  className="flex-1 bg-gradient-to-r from-emerald-600 to-blue-600 hover:from-emerald-700 hover:to-blue-700 text-white py-2 px-4 rounded-lg text-sm font-medium transition-colors"
                 >
                   Start Chat
                 </button>

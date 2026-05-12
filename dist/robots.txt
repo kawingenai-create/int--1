@@ -53,7 +53,8 @@ Allow: /
 User-agent: facebookexternalhit
 Allow: /
 
-# Sitemap location
+# Sitemap locations
+Sitemap: https://integerio.com/sitemap_index.xml
 Sitemap: https://integerio.com/sitemap.xml
 
 # Crawl-delay to prevent overload

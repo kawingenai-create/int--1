@@ -7,7 +7,7 @@
   <!-- Home Page - Main landing page with company overview -->
   <url>
     <loc>https://integerio.com/</loc>
-    <lastmod>2025-12-10</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -15,7 +15,7 @@
   <!-- About Page - Company information, team, and mission -->
   <url>
     <loc>https://integerio.com/about</loc>
-    <lastmod>2025-12-10</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -23,7 +23,7 @@
   <!-- Services Page - Our 6 core services -->
   <url>
     <loc>https://integerio.com/services</loc>
-    <lastmod>2025-12-10</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -31,7 +31,7 @@
   <!-- Services - Web Development -->
   <url>
     <loc>https://integerio.com/services?service=web-development</loc>
-    <lastmod>2025-12-10</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -39,7 +39,7 @@
   <!-- Services - Logo & Poster Design -->
   <url>
     <loc>https://integerio.com/services?service=logo-poster-design</loc>
-    <lastmod>2025-12-10</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -47,7 +47,7 @@
   <!-- Services - AI & ML Projects -->
   <url>
     <loc>https://integerio.com/services?service=ai-ml-projects</loc>
-    <lastmod>2025-12-10</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -55,7 +55,7 @@
   <!-- Services - Data Analytics -->
   <url>
     <loc>https://integerio.com/services?service=data-analytics</loc>
-    <lastmod>2025-12-10</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -63,7 +63,7 @@
   <!-- Services - Business Automation -->
   <url>
     <loc>https://integerio.com/services?service=business-automation</loc>
-    <lastmod>2025-12-10</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -71,7 +71,7 @@
   <!-- Services - Digital Marketing -->
   <url>
     <loc>https://integerio.com/services?service=digital-marketing</loc>
-    <lastmod>2025-12-10</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -79,7 +79,7 @@
   <!-- Products Page - Our digital products and solutions -->
   <url>
     <loc>https://integerio.com/products</loc>
-    <lastmod>2025-12-10</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -87,7 +87,7 @@
   <!-- Projects Page - Portfolio of completed projects -->
   <url>
     <loc>https://integerio.com/projects</loc>
-    <lastmod>2025-12-10</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -95,7 +95,15 @@
   <!-- Contact Page - Contact form, phone, email, WhatsApp -->
   <url>
     <loc>https://integerio.com/contact</loc>
-    <lastmod>2025-12-10</lastmod>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Careers Page - Job opportunities -->
+  <url>
+    <loc>https://integerio.com/careers</loc>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -103,7 +111,7 @@
   <!-- Privacy Policy -->
   <url>
     <loc>https://integerio.com/privacy</loc>
-    <lastmod>2025-12-10</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
@@ -111,7 +119,7 @@
   <!-- Terms of Service -->
   <url>
     <loc>https://integerio.com/terms</loc>
-    <lastmod>2025-12-10</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>

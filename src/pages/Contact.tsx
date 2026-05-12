@@ -214,7 +214,7 @@ const Contact = () => {
                     <span className={`text-xs sm:text-base transition-colors break-all ${isDark ? 'text-gray-200 group-hover:text-purple-400' : 'text-gray-700 group-hover:text-purple-600'}`}>integer.io.ai@gmail.com</span>
                   </a>
                   <div className="flex items-center space-x-3 sm:space-x-4">
-                    <MapPin className="h-4 w-4 sm:h-6 sm:w-6 text-teal-400 flex-shrink-0" />
+                    <MapPin className="h-4 w-4 sm:h-6 sm:w-6 text-blue-400 flex-shrink-0" />
                     <span className={`text-xs sm:text-base ${isDark ? 'text-gray-200' : 'text-gray-700'}`}>Madurai, Coimbatore, Chennai</span>
                   </div>
                 </div>
@@ -224,8 +224,8 @@ const Contact = () => {
                   <h4 className={`text-xs sm:text-sm font-semibold mb-2 sm:mb-3 ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>Follow Us</h4>
                   <div className="flex flex-wrap gap-2 sm:gap-3">
                     <a href="https://instagram.com/Integer.IO.services" target="_blank" rel="noopener noreferrer"
-                      className={`p-2 sm:p-2.5 rounded-xl border transition-all duration-300 hover:scale-110 ${isDark ? 'border-white/10 hover:bg-pink-500/20 hover:border-pink-500/50' : 'border-gray-200 hover:bg-pink-50 hover:border-pink-400'}`}>
-                      <Instagram className={`h-4 w-4 sm:h-5 sm:w-5 ${isDark ? 'text-pink-400' : 'text-pink-600'}`} />
+                      className={`p-2 sm:p-2.5 rounded-xl border transition-all duration-300 hover:scale-110 ${isDark ? 'border-white/10 hover:bg-violet-500/20 hover:border-violet-500/50' : 'border-gray-200 hover:bg-violet-50 hover:border-violet-400'}`}>
+                      <Instagram className={`h-4 w-4 sm:h-5 sm:w-5 ${isDark ? 'text-violet-400' : 'text-violet-600'}`} />
                     </a>
                     <a href="https://www.facebook.com/profile.php?id=61588744035428" target="_blank" rel="noopener noreferrer"
                       className={`p-2 sm:p-2.5 rounded-xl border transition-all duration-300 hover:scale-110 ${isDark ? 'border-white/10 hover:bg-blue-500/20 hover:border-blue-500/50' : 'border-gray-200 hover:bg-blue-50 hover:border-blue-400'}`}>
@@ -296,7 +296,7 @@ const Contact = () => {
                   animate={{ opacity: 1, scale: 1 }}
                   className="text-center py-8"
                 >
-                  <CheckCircle className="h-16 w-16 text-green-500 mx-auto mb-4" />
+                  <CheckCircle className="h-16 w-16 text-emerald-500 mx-auto mb-4" />
                   <h3
                     className={`text-xl font-semibold mb-2 ${isDark ? 'text-white' : 'text-gray-800'
                       }`}
@@ -540,7 +540,7 @@ const Contact = () => {
                         href="https://wa.me/918015355914"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex-1 flex items-center justify-center gap-1 sm:gap-1.5 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-2 py-2 sm:px-3 sm:py-3 rounded-lg font-semibold text-xs sm:text-sm transition-all duration-300 shadow-lg hover:scale-105"
+                        className="flex-1 flex items-center justify-center gap-1 sm:gap-1.5 bg-gradient-to-r from-emerald-600 to-emerald-700 hover:from-emerald-700 hover:to-emerald-800 text-white px-2 py-2 sm:px-3 sm:py-3 rounded-lg font-semibold text-xs sm:text-sm transition-all duration-300 shadow-lg hover:scale-105"
                       >
                         <MessageCircle className="h-3 w-3 sm:h-4 sm:w-4" />
                         WhatsApp

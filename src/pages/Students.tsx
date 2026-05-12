@@ -59,7 +59,7 @@ const Students = () => {
     {
       title: 'AI & Deep Learning',
       icon: <GraduationCap className="h-8 w-8" />,
-      color: 'pink' as const,
+      color: 'purple' as const,
       projects: [
         'Computer Vision Applications',
         'Natural Language Processing',

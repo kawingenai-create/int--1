@@ -95,7 +95,7 @@ const PrivacyPolicy = () => {
             </div>
           </InteractiveCard>
 
-          <InteractiveCard glowColor="pink">
+          <InteractiveCard glowColor="blue">
             <div className="p-6">
               <h2 className={`text-2xl font-bold mb-4 ${isDark ? 'text-white' : 'text-gray-800'}`}>
                 Your Rights

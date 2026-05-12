@@ -767,10 +767,10 @@ const ChatbotWidget: React.FC = () => {
                 <div className="flex items-center gap-1.5">
                   <button
                     onClick={() => openWhatsApp()}
-                    className="relative p-1.5 rounded-lg bg-green-500/90 hover:bg-green-500 text-white transition-colors shadow-none"
+                    className="relative p-1.5 rounded-lg bg-emerald-600/90 hover:bg-emerald-600 text-white transition-colors shadow-none"
                     title="Chat on WhatsApp"
                   >
-                    <span className="absolute inset-0 rounded-lg bg-green-400 animate-ping opacity-50"></span>
+                    <span className="absolute inset-0 rounded-lg bg-emerald-400 animate-ping opacity-50"></span>
                     <svg 
                       viewBox="0 0 24 24" 
                       className="relative w-4 h-4 z-10 fill-current"
@@ -838,7 +838,7 @@ const ChatbotWidget: React.FC = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center justify-center gap-2 w-full py-2.5 px-4 rounded-xl text-white font-semibold text-sm shadow-md transition-all hover:scale-[1.02] active:scale-95"
-                        style={{ background: 'linear-gradient(135deg, #25D366, #128C7E)' }}
+                        style={{ background: 'linear-gradient(135deg, #047857, #1d4ed8)' }}
                       >
                         <MessageCircle className="w-4 h-4" />
                         Chat on WhatsApp Now
@@ -887,7 +887,7 @@ const ChatbotWidget: React.FC = () => {
               <div className={`p-4 border-t space-y-2 ${isDark ? 'bg-gray-900 border-gray-700' : 'bg-white border-gray-200'}`}>
                 <button
                   onClick={() => openWhatsApp()}
-                  className="w-full flex items-center justify-center gap-2 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white py-3 rounded-xl font-semibold text-sm transition-all duration-300 shadow-lg"
+                  className="w-full flex items-center justify-center gap-2 bg-gradient-to-r from-emerald-600 to-blue-600 hover:from-emerald-700 hover:to-blue-700 text-white py-3 rounded-xl font-semibold text-sm transition-all duration-300 shadow-lg"
                 >
                   <MessageCircle className="w-5 h-5" />
                   Continue on WhatsApp
@@ -922,7 +922,7 @@ const ChatbotWidget: React.FC = () => {
                   <p className="text-[9px] text-gray-400">Powered by Integer Helper AI</p>
                   <button
                     onClick={() => openWhatsApp()}
-                    className="flex items-center gap-1 text-[9px] text-green-500 hover:text-green-400 transition-colors"
+                    className="flex items-center gap-1 text-[9px] text-emerald-500 hover:text-blue-500 transition-colors"
                   >
                     <MessageCircle className="w-3 h-3" />
                     WhatsApp

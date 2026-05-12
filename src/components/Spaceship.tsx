@@ -114,9 +114,9 @@ const Spaceship: React.FC = () => {
             animate={{ opacity: [0.2, 0.5, 0.2], scaleX: [0.6, 0.9, 0.6] }}
             transition={{ duration: 0.8, repeat: Infinity, ease: 'easeInOut' }}
           >
-            <div className={`w-16 h-3 rounded-full ${isDark ? 'bg-gradient-to-r from-transparent via-cyan-400 to-blue-500' : 'bg-gradient-to-r from-transparent via-purple-500 to-indigo-600'}`} />
+            <div className={`w-16 h-3 rounded-full ${isDark ? 'bg-gradient-to-r from-transparent via-blue-400 to-violet-500' : 'bg-gradient-to-r from-transparent via-violet-500 to-blue-600'}`} />
           </motion.div>
-          <div className={`w-20 h-20 rounded-full blur-2xl opacity-30 ${isDark ? 'bg-cyan-400' : 'bg-purple-500'}`} />
+          <div className={`w-20 h-20 rounded-full blur-2xl opacity-30 ${isDark ? 'bg-blue-400' : 'bg-violet-500'}`} />
         </div>
       </motion.div>
     );
@@ -139,7 +139,7 @@ const Spaceship: React.FC = () => {
             animate={{ opacity: [0.25, 0.7, 0.25], scaleX: [0.6, 1.1, 0.6], scaleY: [1, 1.2, 1] }}
             transition={{ duration: 0.5, repeat: Infinity, ease: 'easeInOut' }}
           >
-            <div className={`w-24 h-5 rounded-full ${isDark ? 'bg-gradient-to-r from-transparent via-cyan-400 to-blue-500' : 'bg-gradient-to-r from-transparent via-purple-500 to-indigo-600'}`} />
+            <div className={`w-24 h-5 rounded-full ${isDark ? 'bg-gradient-to-r from-transparent via-blue-400 to-violet-500' : 'bg-gradient-to-r from-transparent via-violet-500 to-blue-600'}`} />
           </motion.div>
 
           <motion.div
@@ -147,7 +147,7 @@ const Spaceship: React.FC = () => {
             animate={{ opacity: [0.15, 0.5, 0.15], scaleX: [0.5, 0.9, 0.5] }}
             transition={{ duration: 0.4, repeat: Infinity, ease: 'easeInOut', delay: 0.1 }}
           >
-            <div className={`w-14 h-3 rounded-full ${isDark ? 'bg-gradient-to-r from-transparent via-emerald-400 to-cyan-500' : 'bg-gradient-to-r from-transparent via-pink-400 to-purple-500'}`} />
+            <div className={`w-14 h-3 rounded-full ${isDark ? 'bg-gradient-to-r from-transparent via-emerald-400 to-blue-500' : 'bg-gradient-to-r from-transparent via-violet-400 to-blue-500'}`} />
           </motion.div>
 
           <motion.div
@@ -155,7 +155,7 @@ const Spaceship: React.FC = () => {
             animate={{ opacity: [0.08, 0.3, 0.08], scaleX: [0.4, 0.7, 0.4] }}
             transition={{ duration: 0.3, repeat: Infinity, ease: 'easeInOut', delay: 0.2 }}
           >
-            <div className={`w-10 h-2 rounded-full ${isDark ? 'bg-gradient-to-r from-transparent via-yellow-400 to-orange-500' : 'bg-gradient-to-r from-transparent via-red-400 to-pink-500'}`} />
+            <div className={`w-10 h-2 rounded-full ${isDark ? 'bg-gradient-to-r from-transparent via-violet-400 to-blue-500' : 'bg-gradient-to-r from-transparent via-violet-500 to-blue-500'}`} />
           </motion.div>
 
           {/* Rocket SVG - Scaled Up 20% (96px width vs original 80px) */}
@@ -231,7 +231,7 @@ const Spaceship: React.FC = () => {
             {[...Array(12)].map((_, i) => (
               <motion.div
                 key={i}
-                className={`absolute w-1 h-1 rounded-full ${i % 3 === 0 ? (isDark ? 'bg-cyan-400' : 'bg-purple-500') : i % 3 === 1 ? (isDark ? 'bg-emerald-400' : 'bg-pink-500') : isDark ? 'bg-yellow-400' : 'bg-indigo-500'
+                className={`absolute w-1 h-1 rounded-full ${i % 3 === 0 ? (isDark ? 'bg-blue-400' : 'bg-violet-500') : i % 3 === 1 ? (isDark ? 'bg-emerald-400' : 'bg-blue-500') : isDark ? 'bg-violet-400' : 'bg-blue-500'
                   }`}
                 style={{ left: -i * 3, top: (Math.random() - 0.5) * 20 }}
                 animate={{ opacity: [1, 0], scale: [1, 0], x: [-5, -20] }}
@@ -249,7 +249,7 @@ const Spaceship: React.FC = () => {
         animate={{ opacity: [0.1, 0.25, 0.1], scale: [1, 1.15, 1] }}
         transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }}
       >
-        <div className={`w-32 h-16 rounded-full blur-xl ${isDark ? 'bg-cyan-400' : 'bg-purple-500'}`} />
+        <div className={`w-32 h-16 rounded-full blur-xl ${isDark ? 'bg-blue-400' : 'bg-violet-500'}`} />
       </motion.div>
     </>
   );

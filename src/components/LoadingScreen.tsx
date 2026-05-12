@@ -86,8 +86,8 @@ const LoadingScreen: React.FC<{ onComplete: () => void }> = ({
               <motion.h1
                 className={`text-4xl md:text-5xl font-bold text-center mb-8 py-4 leading-none bg-gradient-to-r bg-clip-text text-transparent drop-shadow-sm ${
                   isDark
-                    ? 'from-emerald-300 via-purple-300 to-pink-300'
-                    : 'from-purple-900 via-indigo-800 to-emerald-800'
+                    ? 'from-emerald-300 via-violet-300 to-blue-300'
+                    : 'from-violet-900 via-blue-800 to-emerald-800'
                 }`}
                 initial={{ scale: 0.7, opacity: 0 }}
                 animate={{ scale: 1, opacity: 1 }}

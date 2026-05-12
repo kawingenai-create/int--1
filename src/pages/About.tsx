@@ -75,7 +75,7 @@ const About = () => {
       emerald: 'from-emerald-500 to-emerald-400',
       purple: 'from-purple-500 to-purple-400',
       blue: 'from-blue-500 to-blue-400',
-      pink: 'from-pink-500 to-pink-400',
+      pink: 'from-violet-500 to-violet-400',
       indigo: 'from-indigo-500 to-indigo-400',
       cyan: 'from-cyan-500 to-cyan-400',
     };
@@ -93,7 +93,7 @@ const About = () => {
       icon: <Heart className="h-10 w-10" />,
       title: 'Passion',
       description: 'Every project is crafted with dedication and enthusiasm.',
-      color: 'pink',
+      color: 'purple',
     },
     {
       icon: <Award className="h-10 w-10" />,
@@ -381,7 +381,7 @@ const About = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
               >
-                <InteractiveCard glowColor={value.color as 'emerald' | 'purple' | 'pink' | 'blue'} className="h-full">
+                <InteractiveCard glowColor={value.color as 'emerald' | 'purple' | 'blue'} className="h-full">
                   <div className="flex flex-col items-center text-center">
                     <div className={`mb-2 sm:mb-4 ${isDark
                         ? `text-${value.color}-400`

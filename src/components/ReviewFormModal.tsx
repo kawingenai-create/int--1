@@ -345,7 +345,7 @@ const ReviewFormModal: React.FC<ReviewFormModalProps> = ({ isOpen, onClose }) =>
                                     onClick={handleShare}
                                     className={`flex items-center justify-center gap-1.5 px-4 py-2.5 sm:py-3 rounded-lg font-medium transition-all duration-300 text-sm sm:text-base border ${isDark ? 'border-gray-600 hover:bg-gray-800 text-gray-200' : 'border-gray-300 hover:bg-gray-100 text-gray-700'}`}
                                 >
-                                    {copied ? <Check className="w-4 h-4 text-green-500" /> : <Share2 className="w-4 h-4" />}
+                                    {copied ? <Check className="w-4 h-4 text-emerald-500" /> : <Share2 className="w-4 h-4" />}
                                     <span className="hidden sm:inline">{copied ? 'Copied!' : 'Share'}</span>
                                 </button>
                                 <button

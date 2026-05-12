@@ -82,11 +82,11 @@ const TermsOfService = () => {
               </p>
               <div className="grid md:grid-cols-2 gap-4">
                 <div className="flex items-start space-x-2">
-                  <CheckCircle className="h-5 w-5 text-green-400 mt-1" />
+                  <CheckCircle className="h-5 w-5 text-emerald-400 mt-1" />
                   <span className={isDark ? 'text-gray-200' : 'text-gray-700'}>Source code ownership</span>
                 </div>
                 <div className="flex items-start space-x-2">
-                  <CheckCircle className="h-5 w-5 text-green-400 mt-1" />
+                  <CheckCircle className="h-5 w-5 text-emerald-400 mt-1" />
                   <span className={isDark ? 'text-gray-200' : 'text-gray-700'}>Design rights transfer</span>
                 </div>
                 <div className="flex items-start space-x-2">
@@ -101,7 +101,7 @@ const TermsOfService = () => {
             </div>
           </InteractiveCard>
 
-          <InteractiveCard glowColor="pink">
+          <InteractiveCard glowColor="purple">
             <div className="p-6">
               <h2 className={`text-2xl font-bold mb-4 ${isDark ? 'text-white' : 'text-gray-800'}`}>
                 Project Delivery & Revisions
@@ -134,7 +134,7 @@ const TermsOfService = () => {
             </div>
           </InteractiveCard>
 
-          <InteractiveCard glowColor="cyan">
+          <InteractiveCard glowColor="blue">
             <div className="p-6">
               <h2 className={`text-2xl font-bold mb-4 ${isDark ? 'text-white' : 'text-gray-800'}`}>
                 Contact Information
