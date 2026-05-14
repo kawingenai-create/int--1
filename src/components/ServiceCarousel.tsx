@@ -25,22 +25,27 @@ const ServiceCarousel = () => {
   const services = [
     {
       title: 'Web Application Development',
+      description: 'We design and develop secure, scalable web solutions for businesses and startups.',
       image: webdevImg,
     },
     {
       title: 'AI Product & Automation Services',
+      description: 'We build intelligent AI solutions to automate workflows and improve business efficiency.',
       image: aiImg,
     },
     {
       title: 'Custom Software & SaaS Product Development',
+      description: 'We create custom software and SaaS platforms tailored to real business needs.',
       image: softwareImg,
     },
     {
       title: 'Digital Marketing & Branding Services',
+      description: 'We help brands grow their online presence and generate high-quality leads.',
       image: digitalMarketingImg,
     },
     {
       title: 'Education & Student Services',
+      description: 'We support students and working professionals with industry-ready solutions.',
       image: finalyrImg,
     },
   ];
@@ -193,6 +198,7 @@ const ServiceCarousel = () => {
                     />
                   </div>
                   <h3 className="service-title">{service.title}</h3>
+                  <p className="service-description">{service.description}</p>
                 </div>
               </div>
             );
