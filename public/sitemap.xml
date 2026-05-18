@@ -1,109 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
-  <!-- Home Page - Main landing page with company overview -->
+  <!-- Home Page -->
   <url>
     <loc>https://www.integerio.com/</loc>
-    <lastmod>2026-05-11</lastmod>
+    <lastmod>2026-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- About Page - Company information, team, and mission -->
+  <!-- About Page -->
   <url>
     <loc>https://www.integerio.com/about</loc>
-    <lastmod>2026-05-11</lastmod>
+    <lastmod>2026-05-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- Services Page - Our 6 core services -->
+  <!-- Services Page -->
   <url>
     <loc>https://www.integerio.com/services</loc>
-    <lastmod>2026-05-11</lastmod>
+    <lastmod>2026-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <!-- Services - Web Development -->
-  <url>
-    <loc>https://www.integerio.com/services?service=web-development</loc>
-    <lastmod>2026-05-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Services - Logo & Poster Design -->
-  <url>
-    <loc>https://www.integerio.com/services?service=logo-poster-design</loc>
-    <lastmod>2026-05-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Services - AI & ML Projects -->
-  <url>
-    <loc>https://www.integerio.com/services?service=ai-ml-projects</loc>
-    <lastmod>2026-05-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Services - Data Analytics -->
-  <url>
-    <loc>https://www.integerio.com/services?service=data-analytics</loc>
-    <lastmod>2026-05-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Services - Business Automation -->
-  <url>
-    <loc>https://www.integerio.com/services?service=business-automation</loc>
-    <lastmod>2026-05-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Services - Digital Marketing -->
-  <url>
-    <loc>https://www.integerio.com/services?service=digital-marketing</loc>
-    <lastmod>2026-05-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Products Page - Our digital products and solutions -->
+  <!-- Products Page -->
   <url>
     <loc>https://www.integerio.com/products</loc>
-    <lastmod>2026-05-11</lastmod>
+    <lastmod>2026-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <!-- Projects Page - Portfolio of completed projects -->
+  <!-- Projects Page -->
   <url>
     <loc>https://www.integerio.com/projects</loc>
-    <lastmod>2026-05-11</lastmod>
+    <lastmod>2026-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <!-- Contact Page - Contact form, phone, email, WhatsApp -->
+  <!-- Contact Page -->
   <url>
     <loc>https://www.integerio.com/contact</loc>
-    <lastmod>2026-05-11</lastmod>
+    <lastmod>2026-05-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- Careers Page - Job opportunities -->
+  <!-- Careers Page -->
   <url>
     <loc>https://www.integerio.com/careers</loc>
-    <lastmod>2026-05-11</lastmod>
+    <lastmod>2026-05-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -111,7 +62,7 @@
   <!-- Privacy Policy -->
   <url>
     <loc>https://www.integerio.com/privacy</loc>
-    <lastmod>2026-05-11</lastmod>
+    <lastmod>2026-05-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
@@ -119,7 +70,7 @@
   <!-- Terms of Service -->
   <url>
     <loc>https://www.integerio.com/terms</loc>
-    <lastmod>2026-05-11</lastmod>
+    <lastmod>2026-05-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>

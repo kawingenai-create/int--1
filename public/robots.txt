@@ -22,7 +22,7 @@ Allow: /
 User-agent: Claude-Web
 Allow: /
 
-# Bing AI and other Microsoft AI
+# Bing AI and Microsoft
 User-agent: Bingbot
 Allow: /
 
@@ -53,9 +53,5 @@ Allow: /
 User-agent: facebookexternalhit
 Allow: /
 
-# Sitemap locations
+# Sitemap - single master index (avoids duplicate signals)
 Sitemap: https://www.integerio.com/sitemap_index.xml
-Sitemap: https://www.integerio.com/sitemap.xml
-
-# Crawl-delay to prevent overload
-Crawl-delay: 1
