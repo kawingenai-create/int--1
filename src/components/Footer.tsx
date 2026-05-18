@@ -149,79 +149,60 @@ const Footer: React.FC = () => {
             >
               Empowering Tamil Nadu's future through smart web & AI solutions.
             </p>
-            <div className="flex space-x-2">
+            <div className="flex flex-col gap-1.5 mt-1">
               <a
                 href="https://wa.me/918015355914"
-                className={`p-1.5 rounded-lg transition-colors border ${isDark
-                  ? 'text-gray-200 border-white/10 hover:text-emerald-400'
-                  : 'text-gray-600 border-gray-200 hover:text-emerald-600'
-                  }`}
+                className={`flex items-center gap-2 text-xs sm:text-sm transition-colors ${isDark ? 'text-gray-300 hover:text-emerald-400' : 'text-gray-600 hover:text-emerald-600'}`}
               >
-                <Phone className="h-4 w-4" />
+                <span className={`p-1.5 rounded-lg border ${isDark ? 'border-white/10' : 'border-gray-200'}`}><Phone className="h-3.5 w-3.5" /></span>
+                WhatsApp
               </a>
               <a
                 href="https://www.youtube.com/@integer-io"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={`p-1.5 rounded-lg transition-colors border ${isDark
-                  ? 'text-gray-200 border-white/10 hover:text-red-500'
-                  : 'text-gray-600 border-gray-200 hover:text-red-600'
-                  }`}
+                target="_blank" rel="noopener noreferrer"
+                className={`flex items-center gap-2 text-xs sm:text-sm transition-colors ${isDark ? 'text-gray-300 hover:text-red-400' : 'text-gray-600 hover:text-red-600'}`}
               >
-                <Youtube className="h-4 w-4" />
+                <span className={`p-1.5 rounded-lg border ${isDark ? 'border-white/10' : 'border-gray-200'}`}><Youtube className="h-3.5 w-3.5" /></span>
+                YouTube
               </a>
               <a
                 href="mailto:integer.io.ai@gmail.com"
-                className={`p-1.5 rounded-lg transition-colors border ${isDark
-                  ? 'text-gray-200 border-white/10 hover:text-purple-400'
-                  : 'text-gray-600 border-gray-200 hover:text-purple-600'
-                  }`}
+                className={`flex items-center gap-2 text-xs sm:text-sm transition-colors ${isDark ? 'text-gray-300 hover:text-purple-400' : 'text-gray-600 hover:text-purple-600'}`}
               >
-                <Mail className="h-4 w-4" />
+                <span className={`p-1.5 rounded-lg border ${isDark ? 'border-white/10' : 'border-gray-200'}`}><Mail className="h-3.5 w-3.5" /></span>
+                Email Us
               </a>
               <a
                 href="https://www.instagram.com/Integer.IO/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={`p-1.5 rounded-lg transition-colors border ${isDark
-                  ? 'text-gray-200 border-white/10 hover:text-violet-400'
-                  : 'text-gray-600 border-gray-200 hover:text-violet-600'
-                  }`}
+                target="_blank" rel="noopener noreferrer"
+                className={`flex items-center gap-2 text-xs sm:text-sm transition-colors ${isDark ? 'text-gray-300 hover:text-violet-400' : 'text-gray-600 hover:text-violet-600'}`}
               >
-                <Instagram className="h-4 w-4" />
+                <span className={`p-1.5 rounded-lg border ${isDark ? 'border-white/10' : 'border-gray-200'}`}><Instagram className="h-3.5 w-3.5" /></span>
+                Instagram
               </a>
               <a
                 href="https://www.linkedin.com/company/integer-io-services/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={`p-1.5 rounded-lg transition-colors border ${isDark
-                  ? 'text-gray-200 border-white/10 hover:text-blue-400'
-                  : 'text-gray-600 border-gray-200 hover:text-blue-600'
-                  }`}
+                target="_blank" rel="noopener noreferrer"
+                className={`flex items-center gap-2 text-xs sm:text-sm transition-colors ${isDark ? 'text-gray-300 hover:text-blue-400' : 'text-gray-600 hover:text-blue-600'}`}
               >
-                <Linkedin className="h-4 w-4" />
+                <span className={`p-1.5 rounded-lg border ${isDark ? 'border-white/10' : 'border-gray-200'}`}><Linkedin className="h-3.5 w-3.5" /></span>
+                LinkedIn
               </a>
               <a
                 href="https://www.facebook.com/profile.php?id=61588744035428"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={`p-1.5 rounded-lg transition-colors border ${isDark
-                  ? 'text-gray-200 border-white/10 hover:text-blue-500'
-                  : 'text-gray-600 border-gray-200 hover:text-blue-700'
-                  }`}
+                target="_blank" rel="noopener noreferrer"
+                className={`flex items-center gap-2 text-xs sm:text-sm transition-colors ${isDark ? 'text-gray-300 hover:text-blue-500' : 'text-gray-600 hover:text-blue-700'}`}
               >
-                <Facebook className="h-4 w-4" />
+                <span className={`p-1.5 rounded-lg border ${isDark ? 'border-white/10' : 'border-gray-200'}`}><Facebook className="h-3.5 w-3.5" /></span>
+                Facebook
               </a>
               <a
                 href="https://x.com/Integer_IO"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={`p-1.5 rounded-lg transition-colors border ${isDark
-                  ? 'text-gray-200 border-white/10 hover:text-gray-400'
-                  : 'text-gray-600 border-gray-200 hover:text-gray-800'
-                  }`}
+                target="_blank" rel="noopener noreferrer"
+                className={`flex items-center gap-2 text-xs sm:text-sm transition-colors ${isDark ? 'text-gray-300 hover:text-gray-400' : 'text-gray-600 hover:text-gray-800'}`}
               >
-                <Twitter className="h-4 w-4" />
+                <span className={`p-1.5 rounded-lg border ${isDark ? 'border-white/10' : 'border-gray-200'}`}><Twitter className="h-3.5 w-3.5" /></span>
+                Twitter / X
               </a>
             </div>
           </motion.div>
