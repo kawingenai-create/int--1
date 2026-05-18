@@ -296,7 +296,7 @@ const ReviewCarousel: React.FC = () => {
                   className={`absolute w-full max-w-2xl h-[250px] sm:h-80 ${!isCenter ? 'hidden sm:block' : ''
                     }`}
                   variants={
-                    window.innerWidth < 640 ? mobileCardVariants : cardVariants
+                    (typeof window !== 'undefined' && window.innerWidth < 640) ? mobileCardVariants : cardVariants
                   }
                   animate={
                     isCenter ? 'center' : position === -1 ? 'left' : 'right'
