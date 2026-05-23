@@ -180,7 +180,7 @@ const Products = () => {
                 'Exam preparation and practice questions',
                 'Multi-subject knowledge integration',
             ],
-            visitUrl: 'https://chatz-io.netlify.app/',
+            visitUrl: 'https://chatz.integerio.com/',
             color: 'emerald' as const,
             badge: 'NEW',
             isComingSoon: false,

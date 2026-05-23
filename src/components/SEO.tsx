@@ -13,7 +13,7 @@ interface SEOProps {
 // Page-specific SEO configurations
 const PAGE_SEO: Record<string, { keywords: string; schemaType: string; schemaName: string }> = {
   '': {
-    keywords: 'Integer.IO Tech, Integer.IO Systems, Integer.IO Solutions, Integer IO tech company, integerio.com, IT company Madurai, web development Madurai, AI automation Madurai, React development Tamil Nadu, SaaS products India, digital transformation Madurai, AI chatbot development, software company Madurai, Thirunagar IT company, best web developer Madurai, Kawin MS, Hemanth K, Livan MG, web development company Tamil Nadu, app development Madurai, full stack development India, startup software solutions, business automation Tamil Nadu',
+    keywords: 'Integer.IO Tech, Integer.IO, Integer IO tech company, integerio.com, IT company Madurai, web development Madurai, AI automation Madurai, React development Tamil Nadu, SaaS products India, digital transformation Madurai, AI chatbot development, software company Madurai, Thirunagar IT company, best web developer Madurai, Kawin MS, Hemanth K, Livan MG, web development company Tamil Nadu, app development Madurai, full stack development India, startup software solutions, business automation Tamil Nadu',
     schemaType: 'WebPage',
     schemaName: 'Home',
   },
