@@ -54,4 +54,7 @@ User-agent: facebookexternalhit
 Allow: /
 
 # Sitemap - single master index (avoids duplicate signals)
-Sitemap: https://www.integerio.com/sitemap_index.xml
+Sitemap: https://www.integerio.com/sitemap.xml
+
+# Crawl-delay to prevent overload
+Crawl-delay: 1
